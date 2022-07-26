@@ -1,121 +1,251 @@
-.bg {}
+#home{
+    margin-top: 8px;
+}
 
 .div-flex {
     display: flex;
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #div-img {
     width: 10%;
     text-align: center;
     margin-right: 5px;
-    background-color: aqua;
+    background-color: #2f92b4;
 
 }
 
 #div-Myweb {
     width: 70%;
     text-align: center;
-    background-color: aqua;
+    background-color: #2f92b4;
     margin-right: 5px;
+}
+.padding{
+    padding-top: 20px;
 
 }
 
 #div-search {
     width: 20%;
-    background-color: aqua;
+    background-color: #2f92b4;
     text-align: center;
 
 }
-nav{
+.nav-section{
+    margin-top: 10px;
+}
+nav {
     width: 100%;
 }
-.nav-section a{
+
+.nav-section a {
     color: white;
     text-decoration: none;
-
-
+    font-size: 20px;
+    font-weight: 400;
 }
-.nav-section div{
+
+.nav-section div {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 40px;
     width: 16.5666667%;
     margin-right: .1%;
-
     text-align: center;
-    background-color:blueviolet;
+    background-color:darkseagreen;
 
 }
-#welcome{
+
+#welcome {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
 }
-#image{
+
+#image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div-half-width{
+
+.div-half-width {
     width: 50%;
 }
-#login{
+
+#login {
     text-align: center;
 }
-#inline{
+
+#inline {
     display: inline;
 }
-#grid{
+
+#grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     border: 2px solid gray;
+    margin-bottom: 30px;
 }
-#grid div{
+
+#grid div {
     border: 2px solid gray;
+    height: 120px;
 
 }
-#grid div img{
+
+#grid div img {
     height: 100%;
     width: 100%;
 }
-#center{
+
+#center {
     text-align: center;
 }
-#grid-table{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    border: 2px solid gray;
-}
-#grid-table div{
-    border: 2px solid gray;
 
+#grid-table {
+    display: grid;
 }
-#grid-table div img{
+
+#grid-table table {
+    border: 2px solid gray;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#grid-table div img {
     height: 100%;
     width: 100%;
 }
-#center{
-    text-align: center;
+
+.title {
+    background-color: #2f92b4;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
 }
-.title{
-    background-color: aqua;
-}
-#slide-div{
+
+#slide-div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#slide-div img{
+
+#slide-div img {
     width: 50%;
     height: 25%;
 }
+
 #myCarousel {
     height: auto;
     width: auto;
     overflow: hidden;
-  }
+}
+
+th {
+    padding: 20px 20px;
+}
+
+#cell23 {
+    background-color: #fc5c65;
+}
+#grid div a img{
+    height: 100%;
+    width: 100%;
+}
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    gap: 10px;
+}
+#contact-us input{
+    padding: 8px;
+    width: 60%;
+}
+button{
+    padding: 10px 10px;
+    width: 30%;
+    background-color: #2f92b4;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}
+#align-right{
+    text-align: right;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.box-shadow{
+    width: 85%;
+    box-shadow: 10px 10px 50px gray;
+    padding: 30px 30px 50px 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    
+}
+.box-shadow-login{
+    width: 30%;
+    box-shadow: 10px 10px 50px gray;
+    padding: 70px 30px 100px 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    
+}
+.box-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+a{
+    color: black;
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+form{
+    display: flex;
+    gap: 0px;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 10px 0 20px 20px;
+}
+form div{
+    text-align: left;
+}
+form input{
+    padding: 2px 0;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.label-direction{
+    display: flex;
+    flex-direction: column;
+}
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    
+}
+.div-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
