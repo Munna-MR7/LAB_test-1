@@ -9,6 +9,8 @@ body {
 .bg {
     margin-top: 10px;
     height: 150px;
+    border: 2px solid blue;
+
 }
 
 .div-flex {
@@ -120,6 +122,11 @@ h6{
 
 .nav-section {
     margin-top: 10px;
+    border: 2px solid blue;
+}
+.nav-section div{
+    border: 2px solid tomato;
+    border-radius: 2px;
 }
 
 nav {
