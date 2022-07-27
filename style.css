@@ -71,8 +71,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(29, 27, 27);
-    color: #e67e22;
     border: 2px solid #e67e22;
+    color: aliceblue;
+
 }
 
 #div-img {
@@ -258,6 +259,9 @@ nav {
 
 th {
     padding: 20px 20px;
+}
+table tr{
+    border-radius: 10px;
 }
 
 #cell23 {
