@@ -126,6 +126,9 @@ h6 {
 nav {
     width: 100%;
 }
+#stand-page a{
+    color: blue;
+}
 
 .nav-section a {
     color: #e67e22;
