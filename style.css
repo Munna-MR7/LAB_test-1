@@ -181,14 +181,16 @@ nav {
 #grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border: 2px solid gray;
     margin-bottom: 30px;
     margin: 20px 50px;
+    gap: 10px;
 }
 
 #grid div {
     border: 2px solid gray;
     height: 200px;
+    border-radius: 15px;
+
 }
 
 #image-gallery {
@@ -208,6 +210,8 @@ nav {
 #grid div img {
     height: 100%;
     width: 100%;
+    border-radius: 15px;
+
 }
 
 #center {
