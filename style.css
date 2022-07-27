@@ -9,7 +9,7 @@ body {
 .bg {
     margin-top: 10px;
     height: 150px;
-    border: 2px solid blue;
+    border: 3px solid #e67e22;
 
 }
 
@@ -18,17 +18,7 @@ body {
 
 }
 
-#div-img {
-    width: 10%;
-    text-align: center;
-    margin-right: 5px;
-    background-color: rgb(225, 105, 84);
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
 .fa-solid {
     font-size: 50px;
@@ -73,28 +63,39 @@ body {
     margin: 0;
 }
 
-footer {
-    background-color: rgb(15, 159, 152);
-    color: aliceblue;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-footer p {
-    text-align: center;
-
-}
 
 #div-Myweb {
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightseagreen;
+    background-color: rgb(29, 27, 27);
+    color: #e67e22;
+    border: 2px solid #e67e22;
+}
+
+#div-img {
+    width: 10%;
+    text-align: center;
+    border: 2px solid #e67e22;
+    background-color: rgb(29, 27, 27);
     color: aliceblue;
-    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div-search {
+    width: 20%;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e67e22;
+
 }
 
 .padding {
@@ -106,26 +107,19 @@ footer p {
 .div-padding {
     padding: 5% 2.5% 5% 5%;
 }
-h6{
+
+h6 {
     font-size: 10px;
 }
-#div-search {
-    width: 20%;
-    background-color: rgb(225, 105, 84);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: aliceblue;
 
-}
 
 .nav-section {
     margin-top: 10px;
-    border: 2px solid blue;
+    border: 2px solid #e67e22;
 }
-.nav-section div{
-    border: 2px solid tomato;
+
+.nav-section div {
+    border: 2px solid #e67e22;
     border-radius: 2px;
 }
 
@@ -134,7 +128,7 @@ nav {
 }
 
 .nav-section a {
-    color: white;
+    color: #e67e22;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
@@ -148,7 +142,7 @@ nav {
     width: 16.5666667%;
     margin-right: .1%;
     text-align: center;
-    background-color: darkseagreen;
+    background-color: rgb(29, 27, 27);
 
 }
 
@@ -189,23 +183,26 @@ nav {
     margin-bottom: 30px;
     margin: 20px 50px;
 }
-#grid div{
+
+#grid div {
     border: 2px solid gray;
     height: 200px;
 }
 
-#image-gallery{
+#image-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 #image-gallery div {
     border: 2px solid gray;
     height: 200px;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 20px;
 }
+
 #grid div img {
     height: 100%;
     width: 100%;
@@ -287,8 +284,8 @@ button {
     font-size: 20px;
     font-weight: 400;
     border: none;
-    background-image: linear-gradient( lightseagreen , tomato);
-    
+    background-image: linear-gradient(lightseagreen, tomato);
+
 }
 
 #align-right {
@@ -323,7 +320,8 @@ h1 {
     border-radius: 10px;
 
 }
-.box-shadow-login input{
+
+.box-shadow-login input {
     width: 90%;
 }
 
@@ -357,7 +355,8 @@ form {
 form div {
     text-align: left;
 }
-form label{
+
+form label {
     font-size: 15px;
 }
 
@@ -366,14 +365,17 @@ form input {
     font-size: 15px;
     margin-bottom: 0px;
 }
-#reg-padding{
+
+#reg-padding {
     margin-bottom: 50px;
 
 }
-#reg-padding label{
+
+#reg-padding label {
     padding-left: 70px;
 }
-#reg-padding input{
+
+#reg-padding input {
     padding-left: 10px;
 }
 
@@ -393,6 +395,21 @@ form input {
     justify-content: center;
     text-align: center;
 }
-.fa-solid{
+
+.fa-solid {
     font-size: 70px;
+}
+
+footer {
+    background-color: rgb(29, 27, 27);
+    color: #e67e22;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+
 }
